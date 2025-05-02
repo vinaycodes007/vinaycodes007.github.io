@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&display=swap');
+:root{
+    --color : #9d75eb;
+}
+body{
+    background-color: var(--color);
+}
+*{
+    
+    margin: 0;padding: 0;
+}
+.bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20px;
+    height: 10vh;
+    width:90vw;
+    background-color: #692be0;
+    margin: auto;
+    border-radius: 20px;
+}
+.take{display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 300px;
+    /* border: 2px solid white; */
+  position: relative;
+  left: 300px;
+}
+.nav{
+    margin: 20px;
+}
+.home{   
+     font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;;
+    display: inline;
+    color: white;
+    position: relative;
+    right: -150px;
+    font-size: xx-large;
+    /* border: 2px solid black; */
+    border-radius: 20px;
+}
+
+.about{
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;;
+    position: relative;
+    right: 280px;
+    font-size: x-large;
+}
+a:link{
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+}
+.banner{   
+    position: relative;
+    top: 50px;
+    margin: auto;
+    height: 60vh;
+    width: 90vw;
+}
+#banner{
+    width: 90vw;
+    height: 60vh;
+    border-radius: 40px;
+    filter: blur(6px);
+}
+
+.banner>h1{
+    position: relative;
+    top: 200px; 
+    z-index: 1;
+    color: white;
+    left: 300px;
+    display: inline-block;
+    font-size: 2em;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.icon{
+    height: 40px;
+}
+.header{
+    position: relative;
+    left: 379px;
+    top: 200px;
+    font-size: 3em;
+    font-family: "Eczar", serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+    display: inline-block;
+}
+.grid{
+    background-color: #c5adf3;
+    margin-top: 200px;   
+    justify-content: center;
+    min-height: 100vh;
+    width: auto;
+    /* border: 2px solid white; */
+}
+
+.item {
+    margin: 20vh auto;
+    height: 80vh;
+    width: 90vw;
+    background-color:#4a19a8;
+    border-radius: 40px;
+    color: #f8ffe5;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.item>h1 {
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    font-size: 3em;
+    left: 100px;
+}
+
+.item>p {
+
+    font-size: larger;
+    position: relative;
+    left: 100px;
+    top: 150px;
+    width: 400px;
+}
+
+.Buy {
+    position: relative;
+    top: 0px;
+    left: 200px;
+    background-color: #ffd7ac;
+    box-shadow:3px 4px 6px#703900;
+    color: #ff1900;
+    font-size: larger;
+    border: none;
+    border-radius: 20px;
+    height: 10vh;
+    width: 10vw;
+}
+.logo{
+    border-radius: 40px;
+    position: relative;
+    left: 700px;
+    bottom: 50px;
+    height: 300px;
+    width: 300px;
+}
+footer{
+    height: 30vh;
+    width: auto;
+}
+.us{ margin-left: 50px;
+    position:relative;
+    bottom: 100px;
+    font-family: "Eczar", serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+    font-size: 3em;
+}
+h2{ position: relative;
+    margin-left: 50px;
+    bottom: 130px;
+    font-family: "Eczar", serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+}
+footer>a:link{
+    color: rgb(0, 0, 0);
+    font-family: "Eczar", serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+    font-size: 2em;
+    position: relative;
+    bottom:100px;
+    left: 50px;
+}
+footer>a:visited{
+    color: rgb(0, 0, 0);
+    font-family: "Eczar", serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+    font-size: 2em;
+}
+#icon{
+    position: relative;
+    left: 800px;
+}

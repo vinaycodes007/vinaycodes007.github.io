@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&display=swap');
+
+:root {
+    --color: #9d75eb;
+}
+
+body {
+    background-color: var(--color);
+}
+
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+.bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20px;
+    height: 10vh;
+    width: 90vw;
+    background-color: #692be0;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.take {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 300px;
+    /* border: 2px solid white; */
+    position: relative;
+    left: 300px;
+}
+
+.nav {
+    margin: 20px;
+}
+
+.home {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    ;
+    display: inline;
+    color: white;
+    position: relative;
+    right: -150px;
+    font-size: xx-large;
+    /* border: 2px solid black; */
+    border-radius: 20px;
+}
+
+.about {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    ;
+    position: relative;
+    right: 280px;
+    font-size: x-large;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+.icon{
+    height: 40px;
+}
+#about {
+    margin: 100px auto;
+    background-color: #f3eefc;
+    height: 60vh;
+    width: 90vw;
+    border-radius: 40px;
+    font-family: "Eczar", serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+    font-size: 2em;
+    color: #2b0e61;
+    text-align: center;
+}
+p{position: relative;
+   font-size: large;
+   font-style: italic;
+}
+.us{ margin-left: 50px;
+    position:relative;
+    bottom: 100px;
+    font-family: "Eczar", serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+    font-size: 3em;
+}
+h2{ position: relative;
+    margin-left: 50px;
+    bottom: 130px;
+    font-family: "Eczar", serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+     
+}
